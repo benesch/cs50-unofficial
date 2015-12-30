@@ -1,0 +1,22 @@
+{
+    "name": "benesch/cs50-unofficial",
+    "type": "library",
+    "description": "Unofficial redistribution of the CS50 PHP library",
+    "keywords": ["cs50", "cs50 id"],
+    "homepage": "https://manual.cs50.net/library/",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "David J. Malan",
+            "email": "malan@harvard.edu",
+            "homepage": "http://cs.harvard.edu/malan/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "openid/php-openid": "^2.3.0"
+    },
+    "autoload": {
+        "classmap": ["CS50.php"]
+    }
+}
